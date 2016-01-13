@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/styles.css"  media="screen" type="text/css" title="no title">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <title>Madlib</title>
+  </head>
+  <body>
+    <div class="container">
+      <button type="button" class="btn btn-primary" id="green">Switch to Green!</button>
+      <button type="button" class="btn btn-primary" id="yellow">Switch to Yellow!</button>
+      <h1>Order your product</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="address">Address:</label>
+            <input id="address" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Thanks for doing business with us! Your receipt: </button>
+       </form>
+     </div>
+     <div id="story">
+       <h1>Receipt</h1>
+       <p>Name: <span class="name"></span> </p>
+       <p>Sent to: <span class="address"></span></p>
+     </div>
+   </div>
+  </body>
+</html>
